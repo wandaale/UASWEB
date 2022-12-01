@@ -40,7 +40,6 @@ CREATE TABLE `akun_admin` (
 
 INSERT INTO `akun_admin` (`id`, `email`, `username`, `psw`) VALUES
 (1, 'admin@gmail.com', 'admin', '123'),
-(2, 'asdd@gmail.com', 'ya', 'ya');
 
 -- --------------------------------------------------------
 
@@ -54,17 +53,6 @@ CREATE TABLE `akun_user` (
   `username` varchar(100) NOT NULL,
   `psw` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data untuk tabel `akun_user`
---
-
-INSERT INTO `akun_user` (`id`, `email`, `username`, `psw`) VALUES
-(1, 'rafi@gmail.com', 'rafi', '$2y$10$l23krsPLv3h4abjZkvgDOuYCWOmvkgHJVAp5CwtsTkIi0RKVYWuv6'),
-(2, 'apa', 'apa', '$2y$10$GAWJ4cLGp7tTdR1unQyIJ.jbrNwKRYQr1w9Ww9ZBNKPRGAv8MxZgS'),
-(3, 'cok', 'cok', '$2y$10$hJatfHC0vAoqkzQLlghjHOiaQUQ2JKfw2BtXVNlgF.0Y.TMGqmTO.');
-
--- --------------------------------------------------------
 
 --
 -- Struktur dari tabel `film`
